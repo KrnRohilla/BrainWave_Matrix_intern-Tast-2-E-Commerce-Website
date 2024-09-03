@@ -1,5 +1,4 @@
 /*button*/
-
 const button = document.querySelectorAll('button');
 button.forEach(btn =>{
     btn.addEventListener('click', function(e){
@@ -18,6 +17,7 @@ button.forEach(btn =>{
     })
 })
 
+/*Bars*/
 const bar = document.getElementById('bar');
 const close = document.getElementById('close');
 const nav = document.getElementById('navbar');
@@ -34,6 +34,7 @@ if (close) {
     })
 }
 
+/*Gallery*/
 var MainImg = document.getElementById("MainImg");
 var smallimg = document.getElementsByClassName("small-img");
 
