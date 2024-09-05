@@ -891,12 +891,8 @@ footer .install img:hover{
 #coupon button,
 #subtotal button{
     background-color: #417291;
-    padding: 12px 20px;
-}
-
-#coupon button:hover,
-#subtotal button:hover{ 
     color: white;
+    padding: 12px 20px;
 }
 
 #subtotal{
